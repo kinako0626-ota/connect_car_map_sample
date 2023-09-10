@@ -29,5 +29,28 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <service
+            android:exported="true"
+            android:label="connect_car_map_sample"
+            android:name="${applicationName}"
+            android:icon="@mipmap/ic_launcher">
+            <!-- Andoroidのドキュメント参照してスポットの実装用の記述を追加している
+            https://developer.android.com/training/cars/apps/poi?hl=ja#declare-poi-support
+             -->
+            <intent-filter>
+                <action android:name="androidx.car.app.CarAppService" />
+                <category android:name="androidx.car.app.category.POI"/>
+                <uses-permission android:name="androidx.car.app.MAP_TEMPLATES"/>
+            </intent-filter>
+            <!-- Andoroidのドキュメント参照してナビゲーションの実装用の記述を追加している
+                https://developer.android.com/training/cars/apps/navigation?hl=ja#declare-navigation-support
+             -->
+            <intent-filter>
+                <action android:name="androidx.car.app.CarAppService" />
+                <category android:name="androidx.car.app.category.NAVIGATION"/>
+                <uses-permission android:name="androidx.car.app.NAVIGATION_TEMPLATES"/>
+            </intent-filter>
+        </service>
     </application>
 </manifest>
