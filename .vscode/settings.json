@@ -1,0 +1,47 @@
+{
+  "cSpell.words": ["nowdish", "nowdishmobile", "Potta", "unawaited"],
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.addMissingImports": true,
+      "source.organizeImports": true,
+      "quickfix.insertSemicolon": true
+    }
+  },
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "dart.renameFilesWithClasses": "always",
+  "dart.checkForSdkUpdates": false,
+  "dart.debugSdkLibraries": true,
+  "dart.runPubGetOnPubspecChanges": "always",
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.previewFlutterUiGuides": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.accessibilitySupport": "off",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "cSpell.userWords": [
+    "Cupertino",
+    "dotenv",
+    "fullscreen",
+    "Goldens",
+    "httpmock",
+    "mcloud",
+    "mockito",
+    "onelogin",
+    "openapi",
+    "riverpod",
+    "takochart",
+    "Upgrader"
+  ],
+  "editor.formatOnSave": true
+}
